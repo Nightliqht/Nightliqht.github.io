@@ -7,6 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<body>
+    <div id="main">
+        <H1>Chronos</H1>
 
+        <div class="container">
+            <h1 id="current-time"></h1>
+        </div>
+
+        <script>
+            let time = document.getElementById("current-time");
+
+            setInterval(() => {
+                let d = new Date();
+                time.innerHTML = d.toLocaleTimeString([] , {hour : "2-digit", minute : "2-digit" ,hour12 : false});
+            }, 1000);
+            
+        </script>
 </body>
 </html>
