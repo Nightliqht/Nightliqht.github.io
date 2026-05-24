@@ -1,6 +1,9 @@
 body {
     background-image: url("wp8963159.jpg");
     background-size:cover;
-    
+    color: #d3d3d3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
 
 }
+
