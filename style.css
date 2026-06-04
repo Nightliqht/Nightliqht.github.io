@@ -1,9 +1,20 @@
 body {
-    background-image: url("wp8963159.jpg");
-    background-size:cover;
-    color: #d3d3d3;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    font-size: large;
-
+    background-color: #161d22;
+}
+body {
+  margin: 0;
+  padding: 0;
 }
 
+.container {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    color: #d3d3d3;
+    font-weight: 900;
+    font-family: Inter;
+    font-size: 1150%;
+    justify-content: center;
+    align-items: center;
+}
