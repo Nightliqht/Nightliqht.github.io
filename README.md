@@ -1,2 +1,0 @@
-# Nightliqht.github.io
-website
