@@ -9,8 +9,11 @@
   --dk-accent: #161d22ff;
 }
 
-
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
   background-color: var(--dk-primary);

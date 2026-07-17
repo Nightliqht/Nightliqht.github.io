@@ -8,16 +8,17 @@ body {
 }
 h1 {
   position: absolute;
-  top: 40%;
-  left: 20%;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
   font-family: Pliant;
-  font-size: 1100%;
+  font-size: 1000%;
   font-weight: 900;
   color: #d2d2d2;
   display: grid;
-  place-items: center;
   margin: 0px;
   padding: 0px;
+  width: 75vw;
 }
 
 #cmnson {
@@ -72,7 +73,7 @@ material-symbols-outlined {
   background-color: transparent;
   border: none;
   padding: 0px;
-  bottom: 5em;
+  bottom: 5vh;
   left: 20px;
 }
 
