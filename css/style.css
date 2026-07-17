@@ -1,25 +1,48 @@
+:root {
+  --lg-primary: #d2d2d2ff;
+  --lg-txt: #121212ff;
+  --lg-accent: #0e1a20ff;
+
+  --dk-primary: #121212ff;
+  --dk-secondary: #252525ff;
+  --dk-txt: #d2d2d2ff;
+  --dk-accent: #161d22ff;
+}
+
+
+
+
 body {
-  background-color: #d2d2d2;
-  margin: 0;    /*#161d22*/
+  background-color: var(--dk-primary);
+  margin: 0;
   padding: 0;
+}
+
+h2 {
+  font-family: Pliant;
+  font-weight: 100;
+  color: var(--dk-txt);
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+
 }
 
 .container {
   position: fixed;
     overflow: hidden;
-    margin-left: 20px;
+    /*margin-left: 20px;*/
     padding: 1px 16px;
     display: grid;
-    color: transparent;
+    color: var(--dk-txt);
     font-weight: 900;
     font-family: Pliant;
     font-size: 1000%;
-    justify-content: center;
-    align-items: center;
-    left: 22%;
-    width: 50vw;
-    top: 8vh;
-    -webkit-text-stroke: 2px #121212;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /*width: 57vw;
+    -webkit-text-stroke: 2px var(--dk-txt); */
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
@@ -38,17 +61,17 @@ a {
   text-decoration: none;
   color: #d3d3d3;
 }
-
+/*
 .sidebar {
   margin-left: 0em;
   margin-top: 2em;
   margin-bottom: 2em;
   margin-right: 2em;
   padding: 0;
-  width: 75px;
+  width: 4.5%;
   background-color: #0e1a20;
   position: fixed;
-  height: 51%;
+  height: 55%;
   overflow: auto;
   border-radius: 15px;
   border-top-left-radius: 0px;
@@ -69,4 +92,4 @@ a {
 .sidebar ul {
   text-align: center;
   padding: 25px;
-}
+} */
