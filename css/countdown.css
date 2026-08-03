@@ -1,23 +1,44 @@
 :root {
-        --background1: #353535ff !important;
+        --background1: #252525ff !important;
         --background2: #050505ff !important;
+        --txt: rgb(150, 213, 143);
 }
 
+html { 
+        background: url(Imgs/blob-scene-haikei-media.svg) no-repeat center center fixed; 
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+}
 
 body {
-        background-image: radial-gradient(var(--background1), var(--background2));
-        height: 100vh;
+        background-image: url(Imgs/blob-scene-haikei.svg);/*var(--background1)*/
+        aspect-ratio: 16/9;
         width: 100%;
+        height: 100%;
+        overflow-y: hidden;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
         margin: 0px;
-        padding: 0%;
+        padding: 0px;
 }
+/*
+.spacer {
+        aspect-ratio: 16/9;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}*/
 
 #days {
         position: absolute;
-        top: 17%;
+        top: 25%;
         left: 50%;
         transform: translate(-50%, -50%);
-        color: #d2d2d2;
+        color: var(--txt);
         font-family: Pliant, Inter, Montserrat, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 1000%;
         font-weight: 900;
@@ -28,9 +49,25 @@ body {
         top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
-        color: #d2d2d2;
+        color: var(--txt);
         font-family: Inter, Pliant, Montserrat, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 200%;
         font-weight: 200;
         word-spacing: 50%;
+}
+
+@media screen and (max-width: 800px) {
+    #days {
+      font-size: 500%;
+      font-weight: 500;
+    }
+
+    #hms {
+      font-size: 100%;
+    }
+
+    body {
+        background-image: url(Imgs/blob-scene-haikei-media.svg);
+        aspect-ratio: 9/16;
+    }
 }

@@ -1,5 +1,5 @@
 // get date of first test (idk the exact time)
-var countDownDate = new Date("Sep 20, 2026 00:00:00").getTime();
+var countDownDate = new Date("Sep 20, 2026 09:30:00").getTime();
 
 // Repeat liek every second
 var x = setInterval(function() {
@@ -17,8 +17,8 @@ var x = setInterval(function() {
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
         // show resultes
-        document.getElementById("days").innerHTML = days + " days";
-        document.getElementById("hms").innerHTML = hours + " hours " + " | " + minutes + " minutes " + " | " + seconds + " seconds ";
+        document.getElementById("days").innerHTML = days + " D";
+        document.getElementById("hms").innerHTML = hours + " H " + " | " + minutes + " m " + " | " + seconds + " s ";
 
         // If the count down is finished, write some text
         if (distance < 0) {
