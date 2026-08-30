@@ -15,6 +15,7 @@
 body {
   /*background-color: var(--dk-primary);*/
   background-image: url(Imgs/nissan-gtr.jpg);
+  aspect-ratio: 16/9;
   background-size: cover;
   margin: 0;
   padding: 0;
