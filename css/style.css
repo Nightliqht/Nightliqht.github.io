@@ -1,12 +1,9 @@
 :root {
-  --lg-primary: #d2d2d2ff;
-  --lg-txt: #121212ff;
-  --lg-accent: #0e1a20ff;
+  --ls-primary: #d2d2d2ff;
+  --ls-txt: #121212ff;
 
   --dk-primary: #121212ff;
-  --dk-secondary: #252525ff;
-  --dk-txt: #d2d2d2ff;
-  --dk-accent: #161d22ff;
+  --dk-txt: #d2d2d2;
 }
 
 * {
@@ -16,7 +13,9 @@
 }
 
 body {
-  background-color: var(--dk-primary);
+  /*background-color: var(--dk-primary);*/
+  background-image: url(Imgs/nissan-gtr.jpg);
+  background-size: cover;
   margin: 0;
   padding: 0;
 }
@@ -29,9 +28,9 @@ body {
     padding: 1px 16px;
     display: grid;
     color: var(--dk-txt);
-    font-weight: 900;
-    font-family: Pliant;
-    font-size: 10vw;
+    font-weight: 100;
+    font-family: Grape Nuts;
+    font-size: 4vw;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -42,48 +41,12 @@ body {
     user-select: none;
 }
 
-/*#topli {
-  display: flex;
-  justify-content: left;
-  font-family: Inter;
-  font-weight: 200;
-  color: #d2d2d2;
-  font-size: 200%;
+h2 {
+    color: var(--dk-txt);
+    position: absolute;
+    font-weight: 100;
+    font-family: Grape Nuts;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
 }
-*/
-a {
-  text-decoration: none;
-  color: #d3d3d3;
-}
-/*
-.sidebar {
-  margin-left: 0em;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  margin-right: 2em;
-  padding: 0;
-  width: 4.5%;
-  background-color: #0e1a20;
-  position: fixed;
-  height: 55%;
-  overflow: auto;
-  border-radius: 15px;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-  top: 22%;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
-
-.sidebar a {
-  display: block;
-  color: #d2d2d2;
-  text-decoration: none;
-  text-align: left;
-}
-
-.sidebar ul {
-  text-align: center;
-  padding: 25px;
-} */

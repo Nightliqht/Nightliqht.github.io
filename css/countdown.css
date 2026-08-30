@@ -1,18 +1,18 @@
 :root {
         --background1: #252525ff !important;
         --background2: #050505ff !important;
-        --txt: rgb(150, 213, 143);
+        --txt: #b2b2b2;/*#96d58f*/;
 }
 
 html { 
-        background: url(Imgs/blob-scene-haikei-media.svg) no-repeat center center fixed; 
+        background-color: url(blob-scene-haikei-media); no-repeat center center fixed; 
         background-size: cover;
         height: 100vh;
         width: 100vw;
 }
 
 body {
-        background-image: url(Imgs/blob-scene-haikei.svg);/*var(--background1)*/
+        background-image: url(Imgs/Clouds.jpg);/*var(--background1)*/
         aspect-ratio: 16/9;
         width: 100%;
         height: 100%;
@@ -66,8 +66,10 @@ body {
       font-size: 100%;
     }
 
-    body {
+    body {/*
         background-image: url(Imgs/blob-scene-haikei-media.svg);
+        */
         aspect-ratio: 9/16;
     }
 }
+
