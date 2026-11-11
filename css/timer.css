@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  position: absolute;
+    overflow: hidden;
+    padding: 1px 16px;
+    display: grid;
+    color: #d2d2d2;
+    font-weight: 100;
+    font-family: Inter;
+    font-size: 4vw;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+button {
+  background: none;
+  border-style: none;
+  color: #d2d2d2;
+  padding: 1vw;
+  font-family: Inter;
+  border-radius: 10px;
+  position: absolute;
+  font-size: 1vw;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -14,8 +14,7 @@
 
 body {
   /*background-color: var(--dk-primary);*/
-  background-image: url(Imgs/nissan-gtr.jpg);
-  aspect-ratio: 16/9;
+  background-image: url(Imgs/Clouds.jpg);
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -23,7 +22,7 @@ body {
 
 
 .container {
-  position: fixed;
+  position: absolute;
     overflow: hidden;
     /*margin-left: 20px;*/
     padding: 1px 16px;
